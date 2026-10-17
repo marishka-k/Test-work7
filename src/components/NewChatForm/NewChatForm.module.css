@@ -1,0 +1,20 @@
+.new-chat {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 16px 8px;
+  padding: 14px;
+  border-radius: var(--radius-m);
+  background: var(--color-bg-secondary);
+}
+
+.new-chat__error {
+  font-size: 13px;
+  color: var(--color-danger);
+}
+
+.new-chat__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
